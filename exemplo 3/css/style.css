@@ -1,0 +1,76 @@
+header{
+    background-color: #eea86e;
+    color: #000000;
+    padding: 20px ;
+    align-items: center;
+    text-align: center;
+ }
+ header img{
+    height: 50px;
+ }
+   header h1{
+      margin: 0px; 
+      margin-left: 10px;
+   }
+   header ul{
+       list-style-type: none;
+   }
+   header ul li{
+       display: inline; /*Itens do menu na horizontal*/
+       margin-right: 20px;
+   }
+   header li a{
+           color: #000000;
+           text-decoration: none;
+   }
+   section {
+          padding: 40px;
+          text-align: center;
+   }
+   .galeria{
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(530px, 1fr));
+      grid-gap: 20px;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+   
+    label{
+       display: block;
+       margin-bottom: 10px;
+   }
+   input[type="text"],
+   input[type="email"],
+    textarea{
+     
+      width: 80%;
+      padding: 10px;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+      }
+      input[type="submit"] {
+         display: block;
+         margin: auto;
+         background-color: #555;
+         color: #ffffff;
+         border: none;
+         padding: 10px 20px;
+         cursor: pointer;
+      }
+
+      input[type="submit"] :hover {
+          background-color: #555;
+      }
+      footer {
+         background-color: #333;
+         color: #ffffff;
+         text-align: center;
+         padding: 10px;
+
+         position: fixed;
+         bottom: 0;
+         width: 100%;
+      }
+  
